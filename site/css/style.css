@@ -92,6 +92,41 @@ body {
 	border: 2px solid #3F0C1F;
 }
 
+#menu-title, #specials-title, #map-title {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+}
+#menu-title:hover, #specials-title:hover, #map-title:hover {
+	box-shadow:0 1px 5px 1px #cccccc;
+}
+
+#menu-title {
+	background: url('../images/res_dish_1.jpg') no-repeat;
+	background-position: center;
+}
+
+#specials-title {
+	background: url('../images/res_dish_2.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu-title span, #specials-title span, #map-title span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+}
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	#logo-img {
@@ -133,7 +168,7 @@ body {
 		height: 650px;
 	}
 } 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.navbar-brand {
 		padding-top: 5px;
 		height: 80px;
@@ -155,6 +190,11 @@ body {
 
 	.container .jumbotron {
 		padding: 0px;
+	}
+
+	#menu-tile, #special-title {
+		width: 360px;
+		margin: 0 auto 15px;
 	}
 }
 
