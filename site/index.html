@@ -2,8 +2,71 @@
 <html>
 <head>
 	<title>This is Course</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<h1>This is course, this is update</h1>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1>China Bistro</h1></a>
+						<p><img src=""><span>Kosher Certified</span></p>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-plus"></span><br class="hidden-xs">Menu
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Award
+							</a>
+						</li>
+
+						<li id="phone" class="hidden-xs">
+							<a href="tel:410-602-5008">
+								<span>410-602-5008</span>
+							</a>
+							<div>* We Deliver</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+<!-- 	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:410-602-5008">
+			<span class="glyphicon glyphicon-earphone"></span>
+			410-602-5008
+		</a>
+	</div> -->
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="images/res_inter.jpg" class="img-responsive visible-xs">
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
